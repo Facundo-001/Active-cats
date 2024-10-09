@@ -1,0 +1,50 @@
+h1 {
+    transition: transform 0.3s ease, color 0.3s ease; /* Transición suave */
+}
+
+h1:hover {
+    color: #ffcc00; /* Cambia el color al pasar el mouse */
+    transform: scale(1.05); /* Aumenta el tamaño ligeramente */
+    /* transform: rotateX(16); */
+}
+
+.image-hover {
+    display: none; /* Inicialmente oculto */
+}
+
+h1:hover + .image-hover {
+    display: flex; /* Muestra la imagen al pasar el mouse sobre el h1 */
+}
+
+
+/* Divisor barra nav item */
+
+    /* .nav-link {
+        position: relative;
+    }
+    
+    .nav-link::after {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 3px;
+        top: 5px;
+        bottom: 0;
+        left: 0;
+        background-color: #080074ad;
+        transition: width 0.3s ease;
+    }
+    
+    .nav-link:hover::after {
+        width: 100%;
+    }
+
+    .nav-link:hover{
+        color: #222222;
+    } */
+
+/* Titulo de nav */
+.navbar-brand:hover{
+    transform: scale(1.1); /* Aumenta el tamaño ligeramente */
+    transition: transform 0.3s ease, color 0.3s ease; /* Transición suave */
+}
