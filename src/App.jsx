@@ -95,13 +95,13 @@ function App() {
         <Contenido_inicial />
         <Barrita_cambiar />
         <Routes>
-          <Route exact path='/' element={<Mis_Projectos />}/>
-          <Route path='/Testeo-Zone/TypeScript' element={<TST_TS />}/>
-          <Route path='/Informacion-sobre-la-pagina' element={<Informacion />}/>
-          <Route path='/Facciones/Equipos/dead-ahead-warfare' element={<Facciones />}/>
-          <Route path='/Esta-pagina-hecha-de' element={<Esta_pagina_esta_hecha_de />}/>
-          <Route path='/Galeria-de-gatitos' element={<CatGallery />}/>
-          <Route path='/Mi-nivel-segun-yo' element={<Mi_nivel />}/>
+          <Route exact path='Active-cats/inicio/mis_projectos' element={<Mis_Projectos />}/>
+          <Route path='Active-cats/Testeo-Zone/TypeScript' element={<TST_TS />}/>
+          <Route path='Active-cats/Informacion-sobre-la-pagina' element={<Informacion />}/>
+          <Route path='Active-cats/Facciones/Equipos/dead-ahead-warfare' element={<Facciones />}/>
+          <Route path='Active-cats/Esta-pagina-hecha-de' element={<Esta_pagina_esta_hecha_de />}/>
+          <Route path='Active-cats/Galeria-de-gatitos' element={<CatGallery />}/>
+          <Route path='Active-cats/Mi-nivel-segun-yo' element={<Mi_nivel />}/>
         </Routes>
     </main>
     <Pie_pagina />

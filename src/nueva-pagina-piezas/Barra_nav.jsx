@@ -22,13 +22,13 @@
             <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav ms-auto">
                     <li className="nav-item">
-                        <Link to='/Testeo-Zone/TypeScript' className="nav-link active fs-6" aria-current="page" href="#">Pruebas TypeScript</Link>
+                        <Link to='Active-cats/Testeo-Zone/TypeScript' className="nav-link active fs-6" aria-current="page" href="#">Pruebas TypeScript</Link>
                     </li>
                     <li className="nav-item">
-                        <Link to='/Facciones/Equipos/dead-ahead-warfare' className="nav-link active fs-6" href="#">Sobre las facciones</Link>
+                        <Link to='Active-cats/Facciones/Equipos/dead-ahead-warfare' className="nav-link active fs-6" href="#">Sobre las facciones</Link>
                     </li>
                     <li className="nav-item">
-                        <Link to="/Galeria-de-gatitos" className="nav-link active fs-6" href="#">Foto de gatitos</Link>
+                        <Link to="Active-cats/Galeria-de-gatitos" className="nav-link active fs-6" href="#">Foto de gatitos</Link>
                     </li>
                     <li className="nav-item">
                         <a className="nav-link disabled fs-6" href="#" tabIndex="-1" aria-disabled="true">Proximamente.</a>
