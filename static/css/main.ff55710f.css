@@ -1,0 +1,2 @@
+h1{transition:transform .3s ease,color .3s ease}h1:hover{color:#fc0;transform:scale(1.05)}.image-hover{display:none}h1:hover+.image-hover{display:flex}.navbar-brand:hover{transform:scale(1.1);transition:transform .3s ease,color .3s ease}.your-class-name{background:linear-gradient(#122045d9,#113b51d9),url(/Active-cats/static/media/Fondo2X2.b75fa9db5058ece613c9.jpeg) repeat}
+/*# sourceMappingURL=main.ff55710f.css.map*/
