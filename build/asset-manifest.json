@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Facundo-001/Active-cats/build/static/css/main.823fd8d7.css",
-    "main.js": "/Facundo-001/Active-cats/build/static/js/main.d1767bac.js",
-    "static/media/Fondo2X2.jpeg": "/Facundo-001/Active-cats/build/static/media/Fondo2X2.b75fa9db5058ece613c9.jpeg",
-    "index.html": "/Facundo-001/Active-cats/build/index.html",
-    "main.823fd8d7.css.map": "/Facundo-001/Active-cats/build/static/css/main.823fd8d7.css.map",
-    "main.d1767bac.js.map": "/Facundo-001/Active-cats/build/static/js/main.d1767bac.js.map"
+    "main.css": "/Active-cats/static/css/main.ff55710f.css",
+    "main.js": "/Active-cats/static/js/main.d1767bac.js",
+    "static/media/Fondo2X2.jpeg": "/Active-cats/static/media/Fondo2X2.b75fa9db5058ece613c9.jpeg",
+    "index.html": "/Active-cats/index.html",
+    "main.ff55710f.css.map": "/Active-cats/static/css/main.ff55710f.css.map",
+    "main.d1767bac.js.map": "/Active-cats/static/js/main.d1767bac.js.map"
   },
   "entrypoints": [
-    "static/css/main.823fd8d7.css",
+    "static/css/main.ff55710f.css",
     "static/js/main.d1767bac.js"
   ]
 }
