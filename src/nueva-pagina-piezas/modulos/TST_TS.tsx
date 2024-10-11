@@ -38,17 +38,30 @@ const TST_TS: React.FC = () => {
 // SEPARADOR
 
     const [numero,setnumero] = useState<number>(0);
-
+    const ui_user = document.getElementById('ui-user');
+    const ui_frase = document.getElementById('ui-frase');
     const sumar = () =>{
         setnumero(numero+1);
     };
 
     // SEPARADOR
-    const [valorInput, setValorInput] = useState<string>("");
-
-    const manejarCambio = (e: React.ChangeEvent<HTMLInputElement>) => {
-        setValorInput(e.target.value);
-    };
+        const [valorInput1, setValorInput1] = useState<string>("");
+        const [valorInput2, setValorInput2] = useState<string>("");
+    
+        const manejarCambio1 = (e: React.ChangeEvent<HTMLInputElement>) => {
+            setValorInput1(e.target.value);
+        };
+    
+        const manejarCambio2 = (e: React.ChangeEvent<HTMLInputElement>) => {
+            setValorInput2(e.target.value);
+        };
+    
+        const manejarClick = () => {
+            if (ui_user) {
+                ui_user.textContent = `Usuario: ${valorInput1}`;
+            }
+            // Aquí puedes agregar la lógica que necesites con valorInput1 y valorInput2
+        };
 
     return (
         <>
@@ -76,12 +89,12 @@ const TST_TS: React.FC = () => {
                 </div>
             <h3 className='text-center alert mt-3 alert-success'>Nivel de dificultad: ????</h3>
                 <div>
-                    <input type="text" value={valorInput} placeholder='Usuario' maxLength={10}></input>
-                    <input type="text" value={valorInput} placeholder='Palabra' maxLength={15}></input>
-                    <button>Crear targeta</button>
-                    <div>
-                        <p></p>
-                        <p></p>
+                    <input type="text" value={valorInput1} onChange={manejarCambio1} placeholder='Usuario' minLength={10}></input>
+                    <input type="text" value={valorInput2} onChange={manejarCambio2} placeholder='Palabra' minLength={15}></input>
+                    <button onClick={manejarClick}>Crear targeta</button>
+                    <div className="card w-25 h-100 card-body">
+                        <p className=" card-text" id="ui-user">Usuario: </p>
+                        <p id="ui-frase"></p>
                     </div>
                 </div>
         </>
