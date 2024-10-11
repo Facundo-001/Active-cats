@@ -20,7 +20,7 @@ function Body() {
         <h4>Se seguira actualizando esta pagina.</h4>
       </div> */}
       <div className="container-fluid bg-body-secondary">
-        <Link className="navbar-brand" to="/">
+        <Link className="navbar-brand" to="Active-cats/">
           <img
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0pvfNqhkFqBmHL9bnsDpFIWFEHfYbGnLEqA&s"
             alt="NEW WORD"
